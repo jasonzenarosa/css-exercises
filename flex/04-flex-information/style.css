@@ -24,3 +24,19 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* solution */
+
+.title-container, .plant-container {
+  display: flex;
+  justify-content: center;
+}
+
+.plant-container {
+  gap: 52px;
+  margin-top: 32px;
+}
+
+.plant-panel {
+  width: 200px;
+}
